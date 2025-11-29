@@ -6,8 +6,10 @@ Might be beneficial to route public queries through vpn for anonymity? Could be 
 
 ### Installation
 1. Remove stub listener on linux host
-```
+```sh
 sudo nano /etc/systemd/resolved.conf
+```
 #uncomment DNSStubListener=yes & set the value to 'no'
+```
 sudo systemctl restart systemd-resolved
 ```
