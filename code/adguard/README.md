@@ -9,7 +9,7 @@ Might be beneficial to route public queries through vpn for anonymity? Could be 
 ```sh
 sudo nano /etc/systemd/resolved.conf
 ```
-#uncomment DNSStubListener=yes & set the value to 'no'
+^^ Uncomment DNSStubListener=yes & set the value to 'no'
 ```
 sudo systemctl restart systemd-resolved
 ```
